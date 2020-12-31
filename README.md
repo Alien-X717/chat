@@ -25,6 +25,7 @@ required python libs:
 *    channels==2.4.0
 *    channels-redis
 *    redis
+*    or if you get any error regarding module not found pls install it.
 
 if you want to use redis as a channel layer
 redis is required to be running in the background
