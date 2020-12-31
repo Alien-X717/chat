@@ -1,0 +1,80 @@
+
+{% load static %}
+<!--DOCTYPE html-->
+<html class=''>
+<head>
+	<meta charset='UTF-8'><meta name="robots" content="noindex">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+	<script src="https://kit.fontawesome.com/2ddf1c727b.js" crossorigin="anonymous"></script>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+	<link rel="stylesheet prefetch" href="{% static 'css/chatstyle.css' %}">
+	<style class="cp-pen-styles"></style>
+	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="frame">
+		<div id="sidepanel">
+			<div id="profile">
+				<div class="wrap">
+					<img id="profile-img" src="{{ user.profile_pic.url }}" class="online" alt="" />
+					<p id="username">{{ user.username }}</p>	
+				</div>
+			</div>
+			<div id="search">
+				<label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+				<input id="search-bar" type="text" placeholder="Search contacts..." />
+			</div>
+			<div id="contacts">
+				<ul id="search-list" style="display: none;">
+					<!--to show searchresults-->
+					
+				</ul>
+
+				<ul id="contact-list">				
+					<!--conversations div-->
+				</ul>
+			</div>
+
+			
+			<div id="bottom-bar">
+				<!--a href="">
+				<button id="addcontact"><span> Back to AskOn </span><i class="fas fa-sign-in-alt"></i></button>
+				</a-->
+				<a href="{% url 'logout' %}"><button id="settings"> <span> Logout </span> <i class="fas fa-sign-out-alt" aria-hidden="true"></i></button></a>
+			</div>
+		</div>
+		<div class="content">
+			<div id="selected-contact-bar" class="contact-profile">
+				<img id="active-contact-img" src="{{user.profile_pic.url}}" alt="" />
+				<p id="active-contact"></p>
+				
+			</div>
+			<div id="chat-parent">
+				<!-- messages content-->
+				
+			
+			</div>
+			<div class="message-input">
+				<div class="wrap">
+				<input id="chat-input-box" type="text" placeholder="Write your message..." />
+				<i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+				<button id="chat-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+	<script src="{% static 'js/reconnecting-websocket.min.js' %}"></script>
+	<script>
+		var username = {{ username }};
+		var userid = {{ userid }};
+		var host = {{ domain }};
+		
+	</script>
+	<script src="{% static 'js/chat.js' %}"></script>
+	</body>
+</html>
