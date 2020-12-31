@@ -16,7 +16,30 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-contact
-#email: karkarejayesh@gmail.com
+***************************
+contributor : Alien-X717
 
-******************************************************************************
+email: karkarejayesh@gmail.com
+
+required python libs:
+*    channels==2.4.0
+*    channels-redis
+*    redis
+
+if you want to use redis as a channel layer
+redis is required to be running in the background
+
+for linux:
+*    sudo apt-get install redis
+*    redis-server
+*    redis-cli ping (if it prints "PONG" then redis is succesfully running )
+
+for windows:
+get it from here : https://github.com/tporadowski/redis/releases/tag/v5.0.9 and run redis-server.exe
+
+************************************************************************************
+for production use :
+some special config will be required depending on your server and hosting enviroment
+************************************************************************************
+
+if you get stuck I'm really sorry pls go through the official django channels documentation https://channels.readthedocs.io/en/2.x/ as i can't cover the whole documentation in this read-me.
