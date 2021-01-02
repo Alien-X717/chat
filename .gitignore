@@ -1,2 +1,2 @@
-media/
 db.sqlite3
+chat/__pycache__/
