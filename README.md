@@ -23,6 +23,15 @@ chat template made by : http://emilcarlsson.se/
 
 email: karkarejayesh@gmail.com
 
+Features:
+*   p2p realtime chat
+*   live online/offline status
+*   live read receipts
+
+cons:
+*   can only run on a single tab as of now.Don't open it on multiple tabs with same session.
+*   if you logout on some other tab, the chat will work till the connection persists.
+
 required python libs:
 *    channels==2.4.0
 *    channels-redis
