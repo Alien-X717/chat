@@ -19,7 +19,7 @@
 ***************************
 contributor : Alien-X717,
 
-chat template made by : http://emilcarlsson.se/
+chat template taken from bootsnipp.com
 
 email: karkarejayesh@gmail.com
 
