@@ -17,7 +17,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ***************************
-contributor : Alien-X717, for chat template :http://emilcarlsson.se/
+contributor : Alien-X717,
+
+chat template made by : http://emilcarlsson.se/
 
 email: karkarejayesh@gmail.com
 
