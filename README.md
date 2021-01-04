@@ -19,7 +19,7 @@
 ***************************
 contributor : Jayesh Karkare karkarejayesh@gmail.com
 
-chat template taken from bootsnipp.com
+chat template taken from bootsnipp.com made by emilcarlsson
 
 Features:
 *   p2p realtime chat
