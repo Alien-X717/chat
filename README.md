@@ -17,11 +17,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ***************************
-contributor : Alien-X717,
+contributor : Jayesh Karkare karkarejayesh@gmail.com
 
 chat template taken from bootsnipp.com
-
-email: karkarejayesh@gmail.com
 
 Features:
 *   p2p realtime chat
