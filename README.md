@@ -52,4 +52,4 @@ for production use :
 some config will be required depending on your server and hosting enviroment
 ************************************************************************************
 
-if you get stuck, I'm really sorry pls go through the official django channels documentation https://channels.readthedocs.io/en/2.x/ as i can't cover the whole documentation in this read-me.
+if you get stuck,you can checkout the official django channels documentation https://channels.readthedocs.io/en/2.x/ 
