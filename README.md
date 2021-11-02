@@ -35,7 +35,7 @@ required python libs:
 *    channels==2.4.0
 
 if you want to use redis as a channel layer
-*   pip install chennels-redis
+*   pip install channels-redis
 
 redis is required to be running in the background
 
@@ -49,7 +49,8 @@ get it from here : https://github.com/tporadowski/redis/releases/tag/v5.0.9 and 
 
 ************************************************************************************
 for production use :
-some config will be required depending on your server and hosting enviroment
+Additional configuration will be required depending on your server and hosting enviroment. Check official django channels documentation https://channels.readthedocs.io/en/2.x/ 
+
 ************************************************************************************
 
-if you get stuck,you can checkout the official django channels documentation https://channels.readthedocs.io/en/2.x/ 
+ 
