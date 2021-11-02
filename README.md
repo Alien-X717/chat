@@ -31,12 +31,12 @@ cons:
 *   if you logout on some other tab, the chat will work till the connection persists.
 
 required python libs:
+*    Django
 *    channels==2.4.0
-*    channels-redis
-*    redis
-*    or if you get any error regarding module not found pls install it.
 
 if you want to use redis as a channel layer
+*   pip install chennels-redis
+
 redis is required to be running in the background
 
 for linux:
