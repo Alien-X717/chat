@@ -80,6 +80,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mysite.wsgi.application'
 ASGI_APPLICATION = 'mysite.routing.application'
 CHANNEL_LAYERS = {
+    #if you want to use in memory channel layers uncomment this and remove the rest of the lines
+    #'default': {
+    #    "BACKEND": "channels.layers.InMemoryChannelLayer"}
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
