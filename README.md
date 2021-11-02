@@ -22,9 +22,9 @@ contributor : Jayesh Karkare karkarejayesh@gmail.com
 chat template taken from bootsnipp.com made by emilcarlsson
 
 Features:
-*   p2p realtime chat
-*   live online/offline status
-*   live read receipts
+*   Realtime personal chat 
+*   Live online/offline status of users
+*   Live read receipts for messages
 
 cons:
 *   can only run on a single tab as of now.Don't open it on multiple tabs with same session.
