@@ -47,6 +47,7 @@ for linux:
 for windows:
 get it from here : https://github.com/tporadowski/redis/releases/tag/v5.0.9 and run redis-server.exe
 
+also specify in settings.py file which channel layer you want to use
 ************************************************************************************
 for production use :
 Additional configuration will be required depending on your server and hosting enviroment. Check official django channels documentation https://channels.readthedocs.io/en/2.x/ 
